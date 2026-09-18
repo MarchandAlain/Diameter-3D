@@ -50,7 +50,7 @@ to brute force by construction.
 
 ## Known limitations
 
-- No worst-case guarantee — `worst`/`worst_tetra` exist precisely to
+- No worst-case guarantee — points concentrated at the vertices of an equilateral triangle or tetrahedron precisely
   demonstrate this; the pipeline degrades gracefully to near-brute-force on
   adversarial inputs rather than failing.
 - Reported exponents (`k` in `N^(1+k)`) are power-law fits over a finite N
