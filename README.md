@@ -43,9 +43,9 @@ speed-up **growing** with N rather than staying constant:
 | 204,800 | 272.9 | 9.6 | ×28.4 |
 
 (`MX_D/N` = mean distance computations per point during the MaxDist phase,
-32 repeats.) Gains are smaller but real on `disk`/`annulus`, negligible on
+32 repeats.) Gains are smaller but real on a sphere or a Gaussian spherical shell, negligible on
 already-easy shapes, and — as expected — absent on the two
-purpose-built adversarial shapes (`worst`, `worst_tetra`), which stay close
+purpose-built adversarial shapes (see below), which stay close
 to brute force by construction.
 
 ## Known limitations
